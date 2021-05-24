@@ -48,12 +48,9 @@
   border-radius: .75rem;
 }
 
-.rounded-4 { border-radius: .5rem; }
+
 .rounded-5 { border-radius: 1rem; }
 
-.text-shadow-1 { text-shadow: 0 .125rem .25rem rgba(0, 0, 0, .25); }
-.text-shadow-2 { text-shadow: 0 .25rem .5rem rgba(0, 0, 0, .25); }
-.text-shadow-3 { text-shadow: 0 .5rem 1.5rem rgba(0, 0, 0, .25); }
 
 
 .row::after {
@@ -81,17 +78,7 @@
 -------------------------------------------------- */
 
 /* Center align the text within the three columns below the carousel */
-.marketing .col-lg-4 {
-  margin-bottom: 1.5rem;
-  text-align: center;
-}
-.marketing h2 {
-  font-weight: 400;
-}
-.marketing .col-lg-4 p {
-  margin-right: .75rem;
-  margin-left: .75rem;
-}
+
 
 .card-body p {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -115,7 +102,12 @@ body {
 }
 
 .constructionServ {
-  background-color: #e4c642;
+  background-color: white;
+  display: felx;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+
   border-radius: 5px;
   padding: 15px 15px;
   width: 100%;
@@ -128,33 +120,64 @@ body {
 }
 
 .service {
-  border-bottom: 1px solid;
+  
+  padding: 15px 25px;
+  width: 100%;
+  
+  list-style-type: none;
+  
+  
+  border-width: solid;
+  
+  border-bottom-color: thistle;
+
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  
 }
 
-.card-img-top{
+/* .card-img-top{
   margin-bottom: 25px;
   max-width: 100%;
 
-}
+} */
 
-.card-title{
+.service-title{
   color: black;
   font-family: 'Oswald', sans-serif;
 }
 
-.titleSection{
-  font-family: 'Oswald', sans-serif;
-}
-
-
-.sample-img{
-  max-width: 100%;
+.service-img{
+  padding: 5px 10px;
+  width: 100%;
   height: auto;
+  
+
 }
 
-.service{
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  border-bottom: 1px darkgoldenrod;
+
+
+.sectionTitle {
+  justify-content: center;
+  text-align: center;
+  padding-bottom: 0mm;
+  margin-bottom: 0mm;
+  margin-top: 10mm;
+  font-family: 'Oswald';
+  font-size: 50px;
+  border-bottom:rgba(0, 0, 0, .1);
+
+}
+
+
+
+@media (min-width: 900px ) {
+  .constructionServ {
+    display: flex;
+    
+   
+
+  }
+
+
+
 }
