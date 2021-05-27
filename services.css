@@ -101,6 +101,10 @@ body {
   min-height: 100vh;
 }
 
+.row-whith-wide-cards .card {
+  width: 100%;
+}
+
 .constructionServ {
   background-color: white;
   display: felx;
@@ -121,7 +125,7 @@ body {
 
 .service {
   
-  padding: 15px 25px;
+  padding: 10px 20px;
   width: 100%;
   
   list-style-type: none;
@@ -134,6 +138,11 @@ body {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   
 }
+
+.description {
+  justify-content:left;
+}
+
 
 /* .card-img-top{
   margin-bottom: 25px;
