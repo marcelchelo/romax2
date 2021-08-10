@@ -153,6 +153,7 @@ body {
 .service-title{
   color: black;
   font-family: 'Oswald', sans-serif;
+  
 }
 
 .service-img{
@@ -172,7 +173,7 @@ body {
   margin-bottom: 0mm;
   margin-top: 10mm;
   font-family: 'Oswald';
-  font-size: 50px;
+  font-size: 60px;
   border-bottom:rgba(0, 0, 0, .1);
 
 }
