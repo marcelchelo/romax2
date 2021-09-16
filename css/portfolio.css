@@ -6,27 +6,8 @@ h1 {
     background-image: linear-gradient(to bottom right, rgb(238, 190, 34), #F8D384);
 }
 
-#myNavbar {
-    background-color: thistle;
-}
 
 .nav-item{
     font-family: 'Oswald', sans-serif;
     font-size: x-large;
 }
-
-/* separator */
-.wrapper {
-    display: flex;
-    background-color: red;
-  }
-  
-  
-
-  .right {
-    display: flexbox;
-    flex-grow: 1;
-    background-color: orange;
-    cursor: ew-resize;
-    width: 12px;
-  }
