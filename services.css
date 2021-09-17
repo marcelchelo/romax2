@@ -12,6 +12,12 @@
   fill: currentColor;
 }
 
+
+.nav-item{
+  font-family: 'Oswald', sans-serif;
+  font-size: x-large;
+}
+
 .feature-icon {
   display: inline-flex;
   align-items: center;
